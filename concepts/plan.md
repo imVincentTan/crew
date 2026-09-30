@@ -8,12 +8,14 @@ timestamp: 2026-06-06T00:00:00Z
 
 # Purpose
 
-`crew` is a version-controlled knowledge base for building and improving AI agents. It stores:
+`crew` is a version-controlled knowledge base for building and improving AI agents. It stores **general, cross-project** material:
 
 - **Skills** — reusable procedures and domain know-how
 - **Knowledge** — durable facts, preferences, and reference material
 - **Playbooks** — step-by-step workflows agents should follow
-- **Project context** — per-repo learnings (e.g. [wealth_tracker](/projects/wealth_tracker.md))
+- **Project pointers** — [projects/](/projects/) is only an index of where each project's own docs live
+
+**Boundary rule:** project-specific knowledge (architecture, product invariants, run steps, lessons tied to one codebase) goes in that project's repo (e.g. `docs/project-context.md`, linked from its README) — not in `crew`. Generalize first: if a lesson is phrased specifically about one project, either abstract it into a cross-project pattern for `crew`, or put it in the project repo.
 
 Over time, every agent interaction should feed a **self-improvement cycle**: capture what worked, what failed, and update this repo so future sessions start smarter. See [Self-improvement cycle](/playbooks/self-improvement-cycle.md).
 
@@ -53,7 +55,7 @@ crew/
 ├── skills/                  # Reusable agent skills
 ├── knowledge/               # Facts, preferences, reference
 ├── playbooks/               # Workflows (incl. self-improvement)
-└── projects/                # Per-project context and lessons
+└── projects/                # Pointers to project repos (context lives in each project)
 ```
 
 Each subdirectory has its own `index.md` (OKF directory listing) and MAY have its own `log.md` for scoped history.
@@ -98,8 +100,8 @@ status: draft | active | deprecated
 
 - [x] Clone repo, establish OKF bundle structure
 - [x] Document plan and self-improvement playbook
-- [ ] Add first real skills and knowledge from sessions
-- [ ] Link [wealth_tracker](/projects/wealth_tracker.md) project context
+- [x] Add first real skills and knowledge from sessions
+- [x] Establish boundary rule: project-specific knowledge lives in project repos; [projects/](/projects/) holds pointers only
 
 ## Phase 2 — Self-improvement loop
 

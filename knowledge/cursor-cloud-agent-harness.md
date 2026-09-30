@@ -9,7 +9,7 @@ status: active
 
 # What the harness is
 
-Cursor Cloud Agents run autonomously in a remote VM per run. Key mechanics observed working on [wealth_tracker](/projects/wealth_tracker.md):
+Cursor Cloud Agents run autonomously in a remote VM per run. Key mechanics observed while working on [wealth_tracker](https://github.com/imVincentTan/wealth_tracker):
 
 - **Environment config**: `.cursor/environment.json` defines install/start scripts. The `start` script runs detached on every boot to bring up services (Postgres, dev servers); nothing waits on it, and failures are not surfaced except via logs.
 - **Prebuilt snapshots**: VMs boot from a snapshot of a previous environment build. The git **refs** may be newer than the **working tree files**, and long-running processes started at boot serve whatever code was on disk *then*.

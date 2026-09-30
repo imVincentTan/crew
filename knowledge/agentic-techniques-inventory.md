@@ -18,7 +18,7 @@ One place to track "anything AI" worth reusing: harness capabilities, agent tech
 | Snapshot-based cloud VMs | Prebuilt environment snapshots make agent VMs boot fast, but running services can serve stale code — verify before trusting | [harness notes](/knowledge/cursor-cloud-agent-harness.md) |
 | Specialized subagents | Explore (codebase search), debug (stateful, hypothesis-driven, instruments code), computer-use (GUI verification), video-review (checks recordings). Delegating GUI work keeps the main agent terminal-focused | tally merge verification |
 | Artifact-based proof | Screen recordings + screenshots under an artifacts dir, uploaded with the run; forces "evidence, not claims" for UI work | tally merge verification |
-| Preview-then-commit flows | Two-phase mutations (preview → user/agent review → commit) make imports/migrations safe and dedup-able | [wealth_tracker](/projects/wealth_tracker.md) |
+| Preview-then-commit flows | Two-phase mutations (preview → user/agent review → commit) make imports/migrations safe and dedup-able | [wealth_tracker](https://github.com/imVincentTan/wealth_tracker) |
 | Self-improvement loop | End-of-session capture of lessons into a versioned knowledge repo (this one) | [playbook](/playbooks/self-improvement-cycle.md) |
 | OKF knowledge bundles | Git-native markdown + frontmatter as an agent-consumable, tool-agnostic memory layer; tool-specific formats (Cursor SKILL.md) are exports | [plan](/concepts/plan.md) |
 

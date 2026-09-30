@@ -31,7 +31,7 @@ Run the repo's own checks: unit tests, lint, production build. All three must pa
 
 ## 4. Exercise the primary user flow through the API
 
-Drive the real contract with curl/script, not just `/health`. For each product invariant, assert it explicitly. Example set from [wealth_tracker](/projects/wealth_tracker.md): create resource → preview → commit → re-import (dedup must skip 100%) → aggregate totals (excluded categories must be absent) → user correction (must persist and override defaults on *new* input).
+Drive the real contract with curl/script, not just `/health`. For each product invariant, assert it explicitly. Example set from [wealth_tracker](https://github.com/imVincentTan/wealth_tracker): create resource → preview → commit → re-import (dedup must skip 100%) → aggregate totals (excluded categories must be absent) → user correction (must persist and override defaults on *new* input).
 
 ## 5. UI walkthrough with artifacts
 
