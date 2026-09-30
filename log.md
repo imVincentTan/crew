@@ -1,5 +1,14 @@
 # Directory Update Log
 
+## 2026-09-30
+
+* **Update**: Refreshed [wealth_tracker project context](/projects/wealth_tracker.md) to post-Tally-merge reality (Next.js at repo root, Chase parser, ports, run/verify steps); status planning → active.
+* **Creation**: Added [Cursor Cloud Agent harness](/knowledge/cursor-cloud-agent-harness.md) — harness mechanics + gotchas observed during the tally merge verification.
+* **Creation**: Added [Agentic techniques inventory](/knowledge/agentic-techniques-inventory.md) — living list of validated/watchlist AI agent techniques.
+* **Creation**: Added [User rules override seed rules](/knowledge/user-rules-override-seed-rules.md) lesson from the apply-to-merchant precedence bug (wealth_tracker PR #3).
+* **Creation**: Added [Verify a web app in a cloud VM](/playbooks/verify-web-app-cloud-vm.md) playbook.
+* **Creation**: Added [Authoring SKILL.md](/skills/authoring-skill-md.md) skill.
+
 ## 2026-06-06
 
 * **Initialization**: Cloned repo and established OKF bundle structure.
