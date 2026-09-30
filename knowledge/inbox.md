@@ -26,3 +26,5 @@ Written by the [session loop](/skills/session-loop.md). One line per candidate l
 (append below, newest last)
 
 - 2026-09-30 | crew | fact | First entry: the inbox itself was created as part of the session-loop setup; format validated by this line.
+- 2026-09-30 | wealth_tracker | failure | `.env`'s host-native `DATABASE_URL` (127.0.0.1) leaked into the api container via compose `${VAR:-default}` interpolation — container must always get the in-network `db` hostname; hardcode it in compose.
+- 2026-09-30 | harness | failure | Inter-container traffic on the docker bridge is broken in this nested cloud VM (container→container times out; host→container and container→host work). Validate compose stacks here via a host-gateway override, not by changing the committed file.
