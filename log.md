@@ -2,6 +2,7 @@
 
 ## 2026-09-30
 
+* **Creation**: Added [Session loop](/skills/session-loop.md) skill + [Learnings inbox](/knowledge/inbox.md) — the minimal always-on self-improvement loop (signal-gated capture, TTL'd inbox, promotion via the self-improvement cycle). Triggered by a 2-line user rule held outside the repo.
 * **Convention**: Established the boundary rule — `crew` holds general, cross-project tooling/knowledge only; project-specific knowledge lives in each project's own repo. [projects/](/projects/) is now a pointer list. Removed `projects/wealth_tracker.md`; its content moved to `docs/project-context.md` in the wealth_tracker repo ([PR #4](https://github.com/imVincentTan/wealth_tracker/pull/4)). Updated [plan](/concepts/plan.md), [self-improvement cycle](/playbooks/self-improvement-cycle.md), and indexes to match.
 * **Update**: Refreshed wealth_tracker project context to post-Tally-merge reality (Next.js at repo root, Chase parser, ports, run/verify steps); status planning → active. (Later moved to the project repo per the boundary rule.)
 * **Creation**: Added [Cursor Cloud Agent harness](/knowledge/cursor-cloud-agent-harness.md) — harness mechanics + gotchas observed during the tally merge verification.

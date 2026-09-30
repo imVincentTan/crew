@@ -10,6 +10,8 @@ timestamp: 2026-06-06T00:00:00Z
 
 Run this playbook at the end of any significant agent session — especially after building, debugging, or making architectural decisions.
 
+In-session capture is handled continuously by the [session loop](/skills/session-loop.md), which appends raw candidates to the [learnings inbox](/knowledge/inbox.md). This playbook governs everything after capture: promoting inbox entries, writing end-of-session concepts, and keeping the bundle curated.
+
 # Steps
 
 ## 1. Decide if anything is worth keeping
