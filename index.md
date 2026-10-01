@@ -14,7 +14,7 @@ Personal knowledge base for AI agent skills, playbooks, preferences, and session
 * [skills/](/skills/) — reusable agent skills (procedures, tool usage, domain know-how)
 * [knowledge/](/knowledge/) — durable facts, preferences, and reference material
 * [playbooks/](/playbooks/) — step-by-step workflows (including self-improvement)
-* [projects/](/projects/) — per-project context and lessons learned
+* [projects/](/projects/) — pointers to project repos (project-specific knowledge lives in each project, not here)
 
 # Meta
 
